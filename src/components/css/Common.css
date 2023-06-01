@@ -1,0 +1,266 @@
+.grid-two-template,
+.grid-two-template-reverce,
+.grid-service-two-template,
+.grid-service-two-template-reverse {
+    background: #f5f5f5;
+}
+
+.grid-two-template-area,
+.grid-two-template-reverce-area,
+.grid-service-two-template-area,
+.grid-service-two-template-reverse-area {
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.grid-two-template-image,
+.grid-two-template-reverce-image,
+.grid-service-two-template-image,
+.grid-service-two-template-reverse-image {
+    width: calc(50% - 20px);
+    overflow: hidden;
+}
+
+.grid-two-template-image img,
+.grid-two-template-reverce-image img,
+.grid-service-two-template-image img,
+.grid-service-two-template-reverse-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-two-template-content,
+.grid-two-template-reverce-content{
+    width: calc(50% - 20px);
+    position: relative;
+    padding: 10px 0px 40px;
+    overflow: hidden;
+}
+
+.grid-service-two-template-content,
+.grid-service-two-template-reverse-content {
+    width: calc(50% - 20px);
+    position: relative;
+    padding: 0px 0px 30px;
+    overflow: hidden;
+}
+
+.grid-two-template-content h2,
+.grid-two-template-reverce-content h2 {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 260px;
+}
+
+.grid-two-template-content h2:before,
+.grid-two-template-reverce-content h2:before {
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    background: #ff243e;
+}
+
+.grid-two-template-content h2:after,
+.grid-two-template-reverce-content h2:after {
+    content: " ";
+    height: 3px;
+    width: 50px;
+    background: #ff243e;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.grid-two-template-content h1,
+.grid-two-template-reverce-content h1 {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.grid-service-two-template-content h1,
+.grid-service-two-template-reverse-content h1{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 0px 20px;
+}
+
+.grid-two-template-content h3,
+.grid-two-template-reverce-content h3 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.grid-two-template-content p,
+.grid-two-template-reverce-content p {
+    font-weight: 400;
+    padding: 10px 0px 0px 40px;
+    font-size: 15px;
+}
+
+.grid-two-template-reverce-content p {
+    padding: 20px 0px 0px 40px;
+}
+
+.grid-two-template-content span,
+.grid-two-template-reverce-content span {
+    font-size: 20px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+
+.grid-two-template-reverce-content span {
+    color: #ff243e;
+}
+
+.grid-two-template-content a,
+.grid-two-template-reverce-content a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px 40px;
+}
+
+@media screen and (max-width : 900px) {
+
+    .grid-two-template-area,
+    .grid-service-two-template-area {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grid-two-template-reverce-area,
+    .grid-service-two-template-reverse-area {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .grid-two-template-image,
+    .grid-two-template-content,
+    .grid-two-template-reverce-image,
+    .grid-two-template-reverce-content,
+    .grid-service-two-template-image,
+    .grid-service-two-template-content,
+    .grid-service-two-template-reverse-image,
+    .grid-service-two-template-reverse-content {
+        width: 100%;
+    }
+}
+
+.center-heading {
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 10px;
+}
+
+.center-heading:before {
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    background: #ff243e;
+}
+
+.center-heading:after {
+    content: " ";
+    height: 3px;
+    width: 50px;
+    background: #ff243e;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.center-heading-text{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px 20px;
+}
+
+.background-gray{
+    background: #f5f5f5;
+}
+
+.lets-discuss-area{
+    background: #ff243e;
+    padding: 0px 20px 50px;
+    margin: 50px 0px;
+}
+
+.lets-discuss-area .center-heading {
+    color: white;
+}
+
+.lets-discuss-area .center-heading:before,
+.lets-discuss-area .center-heading:after {
+    background: #fff;
+}
+
+.lets-discuss-area p{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    padding: 10px 20px 40px;
+}
+
+.lets-discuss-area a{
+    width: max-content;
+    color: white;
+    text-align: center;
+    background: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    margin-left: calc(50% - 100px);
+}
+
+.page-upper-banner {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-upper-banner div {
+    width: 100%;
+    height: 50vh;
+    background: rgb(20, 33, 43 , 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-upper-banner h1{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media screen and (max-width : 500px) {
+    .page-upper-banner h1{
+        font-size: 13vw;
+        font-weight: 500;
+    }    
+}
