@@ -37,9 +37,9 @@ function Footer(props) {
                     </div>
                     <div className='footer-contact'>
                         <h1>Contact Us</h1>
-                        <p>+91 9079762613</p>
-                        <p>Contact@comapny.com</p>
-                        <p>1200 N Federal Hwy, Ste 201,<br /> Boca Raton, FL 33432, USA</p>
+                        <p>+91 9166276171</p>
+                        <p>hello@bytenexttechnologies.in</p>
+                        <p>Sector 28, RanaSanga Marg Prata Nagar,<br /> Jaipur, 302022, INDIA</p>
                     </div>
                     <div className='footer-social'>
                         <h1>Follow Us</h1>
