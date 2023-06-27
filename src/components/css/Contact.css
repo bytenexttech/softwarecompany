@@ -1,0 +1,159 @@
+.contactUsFormBanner {
+    background: #e1e1e1;
+    text-align: center;
+    padding: 60px 10px;
+    font-size: 14px;
+}
+
+.contactUsFormBanner span {
+    color: #888888;
+}
+
+.establishment {
+    display: flex;
+    padding: 50px;
+}
+
+.establishmentImage {
+    width: calc(100% - 550px);
+}
+
+.establishmentImage img{
+    width: 100%;
+}
+
+.establishmentContent {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.establishmentContent h1 {
+    font-size: 34px;
+    color: #111111;
+    font-weight: 500;
+}
+
+.establishmentContent p {
+    font-size: 15px;
+    color: #777;
+    font-weight: 400;
+    padding: 30px 0px 50px;
+}
+
+.establishmentContent h3 {
+    font-size: 15px;
+    color: #111;
+    font-weight: 500;
+}
+
+.TrustedImages{
+    display: flex;
+}
+
+
+
+.locationMap{
+    width: calc(100% - 100px);
+    padding: 50px;
+}
+
+.locationMap img{
+    width: 100%;
+}
+
+
+.contactForm{
+    width: calc(100%);
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contactForm h1{
+    font-size: 34px;
+    color: #111111;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.NameField{
+    display: flex;
+    gap: 20px;
+}
+
+.NameField,
+.EmailField,
+.DescriptionField{
+    width: 100%;
+}
+
+.firstName,
+.lastName{
+    width: 50%;
+}
+
+.Input Input,
+.Input textarea{
+    width: calc(100%);
+    padding: 10px;
+}
+
+.Input{
+    padding: 10px 0px;
+}
+
+.Input p{
+    font-size: 13px;
+}
+
+.contactFormSubmit{
+    background: #212121;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid #111111;
+    cursor: pointer;
+    margin: 10px 0px 50px;
+    transition: all 0.1s;
+}
+
+.contactFormSubmit:hover{
+    background: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 1200px)
+{
+    .establishmentContent,
+    .establishmentImage{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .establishment{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .establishmentImage,
+    .establishmentContent{
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .locationMap{
+        width: calc(100% - 40px);
+        padding: 20px;
+    }
+}

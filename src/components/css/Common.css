@@ -258,6 +258,11 @@
     padding-top: 50px;
 }
 
+.headerBgBlack{
+    background: #151414 !important;
+    height: 100px;
+}
+
 @media screen and (max-width : 500px) {
     .page-upper-banner h1{
         font-size: 13vw;

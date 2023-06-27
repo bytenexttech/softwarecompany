@@ -30,10 +30,13 @@
     padding-bottom: 20px;
 }
 
-.footer-quick-links p,
-.footer-services p,
-.footer-contact p,
-.footer-social p{
+.footer-quick-links a,
+.footer-services a,
+.footer-contact a,
+.footer-social a{
+    display: flex;
+    flex-direction: column;
+    color: white;
     font-weight: 400;
     font-size: 15px;
     padding: 3px 0px;
