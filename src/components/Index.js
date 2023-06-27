@@ -18,7 +18,7 @@ function Index(props) {
                 <div className='home-page-content'>
                     <div>
                         <h1>Tech is Just What Your  Business Needs.</h1>
-                        <p className='btn'>Contact Us</p>
+                        <a href='/Contact' className='btn'>Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -29,25 +29,35 @@ function Index(props) {
                     </div>
                     <div className='grid-two-template-content'>
                         <h2>WHO WE ARE</h2>
-                        <h1>Why Tech Global Services</h1>
-                        <h3>Salesforce Development, Salesforce Consulting Service. Salesforce is a powerful tool for marketing and promotions. We design and optimize your sales process to maximize cross-selling, up-selling and deliver effective personalized marketing to your customers and we are also professional development and consulting partners.</h3>
+                        <h1>Why Byte Next Technologies</h1>
+                        <h3>Salesforce Development, Salesforce Consulting Service. Salesforce is a powerful tool for marketing and promotions. We design and optimize your sales process to maximize cross-selling, up-selling and deliver effective personalized marketing to your customers and we are also providing Salesforce Training.</h3>
                         <br />
-                        <p><span><AiFillCheckSquare /></span>We are a boutique consulting and technology firm having offices in US and India.</p>
-                        <p style={{ marginBottom: "50px" }}><span><AiFillCheckSquare /></span>We craft custom cloud-based software and mobile digital solutions for enterprises.</p>
-                        <a href='/'>Learn More</a>
+                        <p><span><AiFillCheckSquare /></span>We have extensive experience in designing, developing & implementing salesforce solutions..</p>
+                        <p style={{ marginBottom: "50px" }}><span><AiFillCheckSquare /></span>We are also have expertise in providing salesforce expert led training.</p>
+                        <a href='/Training'>Learn More</a>
                     </div>
                 </div>
             </div>
+            <div id='Services'></div>
             <div className='home-services-section'>
                 <h1>OUR SERVICES</h1>
                 <div className='home-services-list'>
+                    <div className='home-service-single'>
+                        <div className='home-service-image'>
+                            <img src={salesforce} alt='' />
+                        </div>
+                        <div className='home-service-content'>
+                            <h2>Salesforce Development</h2>
+                            <p>We are experience salesforce experts having expertise in different salesforce areas.</p>
+                        </div>
+                    </div>
                     <div className='home-service-single'>
                         <div className='home-service-image'>
                             <img src={website} alt='' />
                         </div>
                         <div className='home-service-content'>
                             <h2>Website Development</h2>
-                            <p>We have a team of Certified Architects to provide best solution in the industry.</p>
+                            <p>We have a team experienced Full-Stack developers who can build best & efficient solutions.</p>
                         </div>
                     </div>
                     <div className='home-service-single'>
@@ -56,23 +66,14 @@ function Index(props) {
                         </div>
                         <div className='home-service-content'>
                             <h2>Application Development</h2>
-                            <p>We have a team of Certified Architects to provide best solution in the industry.</p>
-                        </div>
-                    </div>
-                    <div className='home-service-single'>
-                        <div className='home-service-image'>
-                            <img src={salesforce} alt='' />
-                        </div>
-                        <div className='home-service-content'>
-                            <h2>Salesforce Development</h2>
-                            <p>We have a team of Certified Architects to provide best solution in the industry.</p>
+                            <p>Out team is expert in Android & IOS developers that can provide your customer a personalized view.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='home-page-counters'>
-                {/* https://techilaservices.com/wp-content/themes/newtechila/assets/img/banner/Techila_banner.jpg */}
+            {/* <div className='home-page-counters'>
+                https://techilaservices.com/wp-content/themes/newtechila/assets/img/banner/Techila_banner.jpg
                 <div className='home-page-counters-content'>
                     <div className='home-page-counter'>
                         <h1>800+</h1>
@@ -95,7 +96,7 @@ function Index(props) {
                         <p>Happy Customers</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <div className='grid-two-template-reverce'>
@@ -110,7 +111,7 @@ function Index(props) {
                         <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Develop : </b>Setup the instance using decorative and custom coding.</p>
                         <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Testing : </b>Perform unit testing, system testing and UAT with client.</p>
                         <p style={{ marginBottom: "50px" }}><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Go Live and Training : </b>Make everything live and train the power users.</p>
-                        <a href='/'>Contact Us</a>
+                        <a href='/Contact'>Contact Us</a>
                     </div>
                     <div className='grid-two-template-reverce-image'>
                         <img src={agile} alt='' />
@@ -118,7 +119,7 @@ function Index(props) {
                 </div>
             </div>
 
-            <div className='home-page-articales'>
+            {/* <div className='home-page-articales'>
                 <h1>IMPORTANT ARTICLES</h1>
                 <div className='home-page-articale-list'>
                     <div className='home-page-articale'>
@@ -188,7 +189,7 @@ function Index(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

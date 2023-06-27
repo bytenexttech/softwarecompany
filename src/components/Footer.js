@@ -17,42 +17,41 @@ function Footer(props) {
                 <div className='footer-content'>
                     <div className='footer-quick-links'>
                         <h1>Quick Links</h1>
-                        <p>About Us</p>
-                        <p>Careers</p>
-                        <p>Services</p>
-                        <p>Integrations</p>
-                        <p>Products</p>
-                        <p>Contact</p>
-                        <p>Blogs</p>
+                        <a href='/'>Home</a>
+                        <a href='/About'>About Us</a>
+                        {/* <a href='/'>Careers</a> */}
+                        <a href='/#Services'>Services</a>
+                        {/* <a href='/'>Integrations</a> */}
+                        {/* <a href='/'>Products</a> */}
+                        <a href='/Contact'>Contact</a>
+                        {/* <a href='/'>Blogs</a> */}
                     </div>
                     <div className='footer-services'>
                         <h1>Services</h1>
-                        <p>Website Development</p>
-                        <p>Ecommerce Development</p>
-                        <p>Salesforce Consulting</p>
-                        <p>Salesforce Development</p>
-                        <p>Salesforce Support</p>
-                        <p>Application Development</p>
-                        <p>Integrations</p>
+                        <a href='/'>Website Development</a>
+                        <a href='/'>Ecommerce Development</a>
+                        <a href='/'>Salesforce Consulting</a>
+                        <a href='/'>Salesforce Development</a>
+                        <a href='/'>Application Development</a>
                     </div>
                     <div className='footer-contact'>
                         <h1>Contact Us</h1>
-                        <p>+91 9166276171</p>
-                        <p>hello@bytenexttechnologies.in</p>
-                        <p>Sector 28, RanaSanga Marg Prata Nagar,<br /> Jaipur, 302022, INDIA</p>
+                        <a href='tel:+91    9166276171' type='mobile'>+91 9166276171</a>
+                        <a href='mailto:hello@bytenexttechnologies.in'>hello@bytenexttechnologies.in</a>
+                        <a href='/'>Sector 28, RanaSanga Marg Prata Nagar,<br /> Jaipur, 302022, INDIA</a>
                     </div>
                     <div className='footer-social'>
                         <h1>Follow Us</h1>
                         <div className='footer-social-links'>
-                            <p><AiOutlineInstagram /></p>
-                            <p><AiFillLinkedin /></p>
-                            <p><BsTwitter /></p>
-                            <p><AiFillFacebook /></p>
+                            <a href='/'><AiOutlineInstagram /></a>
+                            <a href='/'><AiFillLinkedin /></a>
+                            <a href='/'><BsTwitter /></a>
+                            <a href='/'><AiFillFacebook /></a>
                         </div>
                     </div>
                 </div>
                 <div className='footer-up-scroller'>
-                    <h1><BsFillArrowUpCircleFill style={{cursor: "pointer"}} onClick={scrolltoTop} /></h1>
+                    <h1><BsFillArrowUpCircleFill style={{ cursor: "pointer" }} onClick={scrolltoTop} /></h1>
                 </div>
             </div>
         </div>
