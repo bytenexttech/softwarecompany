@@ -2,9 +2,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from './components/Index.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import Salesforce from './components/Salesforce.js';
+// import Salesforce from './components/Salesforce.js';
 import './App.css';
-import Blog from "./components/Blog.js";
+// import Blog from "./components/Blog.js";
+import About from "./components/About.js";
+import Contact from "./components/Contact.js";
+import Training from "./components/Training.js";
 
 function App() {
   return (
@@ -13,8 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<><Index /></>}></Route>
-          <Route path='/blogs/blog' element={<><Blog /></>}></Route>
-          <Route path='/Services/Salesforce-development' element={<><Salesforce /></>}></Route>
+          <Route path='/About' element={<><About /></>}></Route>
+          <Route path='/Contact' element={<><Contact /></>}></Route>
+          <Route path='/Training' element={<><Training /></>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer />
