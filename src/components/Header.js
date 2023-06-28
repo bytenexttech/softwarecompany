@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import '../components/css/Header.css'
-import menu_white from '../assests/menu-white.png'
 import logo from '../assests/logo.png'
+import { ImCross } from "react-icons/im";
+import { FcReadingEbook } from "react-icons/fc";
+import { FaBars } from "react-icons/fa";
 function Header(props) {
 
     useEffect(() => {
@@ -10,7 +12,7 @@ function Header(props) {
 
     function fixedHeader() {
         var header = document.querySelector('.header');
-        var sticky = header.offsetTop + 100;
+        var sticky = header.offsetTop + 200;
 
         if (window.scrollY > sticky) {
             header.classList.add("stickyHeader");
@@ -20,31 +22,15 @@ function Header(props) {
     }
 
     const showMobileHeader = () => {
-        console.log('Clicked');
-        console.log(document.querySelector('.header .tabs').style.height);
-        if (document.querySelector('.header .tabs').style.height === '0px' || document.querySelector('.header .tabs').style.height === '') {
-            document.querySelector('.header .tabs').style.height = 'max-content';
-            document.querySelector('.header .tabs').style.padding = '20px';
-            document.querySelector('.header').style.background = '#151414';
-        }
-        else {
-            document.querySelector('.header .tabs').style.height = '0px';
-            document.querySelector('.header .tabs').style.padding = '0px 20px';
-
-            var header = document.querySelector('.header');
-            var sticky = header.offsetTop + 100;
-
-            if (window.scrollY > sticky) {
-                document.querySelector('.header').style.background = '#151414';
-            } else {
-                document.querySelector('.header').style.background = 'transparent';
-            }
-        }
+        document.querySelector('.tabs').style.left = '0px';
+    }
+    const hideMobileHeader = () => {
+        document.querySelector('.tabs').style.left = '-100vw';
     }
 
     const tabClicked = () => {
         if (window.innerWidth < 700) {
-            showMobileHeader();
+            hideMobileHeader();
         }
     }
 
@@ -52,20 +38,24 @@ function Header(props) {
     return (
         <div className='header'>
             <div className='header-content'>
-                <a href="/">
+                <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
                     <div className='logo'>
                         <img src={logo} alt='' />
                     </div>
                 </a>
                 <div className='tabs'>
-                    <a href='/' onClick={tabClicked}>Home</a>
+                    <div className="MobileContent">
+                        <a href="/"><img src={logo} alt='' /></a>
+                        <p><ImCross onClick={hideMobileHeader} /></p>
+                    </div>
+                    <a href='/'>Home</a>
                     <a href='/#Services' onClick={tabClicked}>Services</a>
-                    <a href='/About' onClick={tabClicked}>About Us</a>
-                    <a href='/Contact' onClick={tabClicked}>Contact Us</a>
-                    {/* <a href='/Training' onClick={tabClicked}>Get Trained</a> */}
+                    <a href='/About'>About Us</a>
+                    <a href='/Contact'>Contact Us</a>
+                    <a href='/Training'>Get Trained <span><FcReadingEbook /></span></a>
                 </div>
                 <div className="bars">
-                    <img src={menu_white} alt="" onClick={showMobileHeader} />
+                    <FaBars onClick={showMobileHeader} />
                 </div>
             </div>
         </div>

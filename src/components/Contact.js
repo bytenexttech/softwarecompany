@@ -3,7 +3,6 @@ import '../components/css/Contact.css'
 function Contact(props) {
     return (
         <div className='contactUsForm'>
-            <div className='headerBgBlack'></div>
             <div className='contactUsFormBanner'>
                 <p><span>Home &gt;</span> Contact Us</p>
             </div>

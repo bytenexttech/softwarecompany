@@ -6,7 +6,6 @@ import { FaPlayCircle } from "react-icons/fa";
 function About(props) {
     return (
         <div className="AboutPage">
-            <div className='headerBgBlack'></div>
             {/* <div className='playVideoComponentOverlay'></div>
             <div className='playVideoComponent'>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/XROICkmXT_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,25 +1,28 @@
+import { useEffect } from "react";
 import '../components/css/Index.css'
 import '../components/css/Common.css'
+import logo from '../assests/logo.png'
 import { AiFillCheckSquare } from "react-icons/ai";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import agile from '../assests/agile.png';
 import website from '../assests/website.png';
 import application from '../assests/application.png';
 import salesforce from '../assests/salesforce.png';
 function Index(props) {
+    useEffect(() => {
+        if (window.location.href.includes(window.location.origin + '/#Services')) {
+            window.scrollTo(0, (document.querySelector('#Services').offsetTop - 120));
+        }
+    }, []);
+
     return (
         <div className='home-page'>
             <div className='home-page-banner'>
-                <div className='video-wrap'>
-                    <video className='homePageBannerVideo' autoPlay loop muted>
-                        <source src='https://techilaservices.com/wp-content/themes/newtechila/assets/img/banner/banner.mp4?v=5151' type='video/mp4' />
-                    </video>
-                </div>
+                <div className='home-page-banner-overlay'></div>
                 <div className='home-page-content'>
-                    <div>
-                        <h1>Tech is Just What Your  Business Needs.</h1>
-                        <a href='/Contact' className='btn'>Contact Us</a>
-                    </div>
+                    <img src={logo} alt='' />
+                    <h1 style={{ fontSize: '38px' }}>Get connected & take control of your business Success.</h1>
+                    <p style={{ fontSize: '16px' }}>Salesforce is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service, and IT teams work. </p><br />
+                    <a href='/Contact' style={{ color: 'white', width: 'max-content', display: 'flex', margin: 'auto' }}><p style={{ textDecoration: 'none', color: 'white', background: 'black', padding: '15px 40px', width: 'max-content' }}>Contact Us</p></a>
                 </div>
             </div>
             <div className='grid-two-template'>
@@ -106,11 +109,11 @@ function Index(props) {
                         <h1>How Do We Work ?</h1>
                         <h3>We believe in Customer Success & We ensure that what we develop, it provide its best value to your customers.</h3>
                         <br />
-                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Requirement Gathering : </b>Setup meetings to gather requirements and finalise scope.</p>
-                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Design : </b>Use best practices to design a scalable system.</p>
-                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Develop : </b>Setup the instance using decorative and custom coding.</p>
-                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Testing : </b>Perform unit testing, system testing and UAT with client.</p>
-                        <p style={{ marginBottom: "50px" }}><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "#ff243e" }}>Go Live and Training : </b>Make everything live and train the power users.</p>
+                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "black" }}>Requirement Gathering : </b>Setup meetings to gather requirements and finalise scope.</p>
+                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "black" }}>Design : </b>Use best practices to design a scalable system.</p>
+                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "black" }}>Develop : </b>Setup the instance using decorative and custom coding.</p>
+                        <p><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "black" }}>Testing : </b>Perform unit testing, system testing and UAT with client.</p>
+                        <p style={{ marginBottom: "50px" }}><span><AiFillCheckSquare /></span><b style={{ fontWeight: "500", color: "black" }}>Go Live and Training : </b>Make everything live and train the power users.</p>
                         <a href='/Contact'>Contact Us</a>
                     </div>
                     <div className='grid-two-template-reverce-image'>
@@ -190,7 +193,7 @@ function Index(props) {
                     </div>
                 </div>
             </div> */}
-        </div>
+        </div >
     );
 }
 export default Index;
