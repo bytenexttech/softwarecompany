@@ -10,48 +10,42 @@
 }
 
 .header {
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 5;
     display: flex;
     justify-content: center;
-    transition: all 0.1s;
+    /* background: rgb(21, 20, 20); */
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
-    padding: 20px 10px;
+    padding: 25px 10px;
     width: 100%;
     max-width: 1250px;
     left: calc(50% - 625px);
+    transition: all 0.2s;
 }
 
 .logo img {
-    height: 55px;
+    height: 35px;
     width: max-content;
 }
 
 .header .tabs {
     display: flex;
-    color: white;
+    /* color: white; */
     transition: all 0.5s;
 }
 
 .header .tabs a {
-    padding: 15px 20px 0;
+    padding: 6px 20px;
     font-size: 15px;
     cursor: pointer;
-    color: white;
+    /* color: white; */
     text-decoration: none;
-}
-
-.header .tabs a span {
-    position: absolute;
-    font-size: 12px;
-    margin-top: 5px;
-    font-weight: bold;
-    padding: 0 0 0 5px;
+    font-weight: 500;
 }
 
 .stickyHeader {
@@ -59,25 +53,34 @@
     left: 0;
     top: 0;
     width: 100%;
-    background: #151414 !important;
+    background: #fff !important;
 }
 
 .stickyHeader .header-content {
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .bars {
-    width: 40px;
-    height: max-content;
-    margin: 5px 0 0;
+    font-size: 25px;
     display: none;
 }
 
-.bars img {
+.MobileContent img {
     width: 100%;
 }
 
 
+.MobileContent {
+    display: none;
+}
+
+.tabs a span {
+    position: absolute;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    font-size: 18px ;
+    margin: auto ;
+}
 
 @media screen and (max-width : 900px) {
     .bars {
@@ -86,15 +89,14 @@
 
     .header .tabs {
         position: fixed;
-        background: #151414;
+        background: #fff;
         width: 100%;
-        left: 0;
-        top: 76px;
-        height: 0px;
+        left: -100vw;
+        top: 0;
+        height: 100vh;
         overflow: hidden;
         flex-direction: column;
-        padding: 0px 20px;
-        overflow: hidden;
+        padding: 0 20px;
     }
 
     .header .tabs a {
@@ -105,12 +107,39 @@
         color: white;
         background: #262626;
         text-align: center;
-        border: 1px solid white;
+        border: 1px solid black;
         padding: 8px;
         margin: 20px 0 10px 10px;
     }
 
-    .header .tabs a span {
-        right: 30px;
+    .MobileContent {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 20px;
+    }
+
+    .MobileContent p {
+        font-size: 16px;
+        padding: 0px 10px 5px 0;
+    }
+
+    .MobileContent img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .MobileContent a:last-child {
+        color: white !important;
+        background: transparent !important;
+        text-align: center !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .header-content {
+        padding: 10px;
     }
 }

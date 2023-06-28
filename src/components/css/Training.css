@@ -1,0 +1,126 @@
+.trainingPageHero {
+    background: #f5f6fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.trainingPageHeroLeft,
+.trainingPageHeroRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+}
+
+.trainingPageHeroRightContent {
+    z-index: 1;
+}
+
+.trainingPageHeroRightContent img {
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+}
+
+.trainingPageHeroLeftContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trainingPageHeroLeft h1 {
+    color: #111;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.trainingPageHeroLeft p {
+    color: #616161;
+    font-size: 16px
+}
+
+.trainingPageHeroLeft a {
+    width: max-content;
+}
+
+.trainingPageHeroLeft p:last-child {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px 40px;
+    width: max-content;
+}
+
+.trainingBenefits {
+    padding: 100px 20px;
+}
+
+.trainingBenefits h1,
+.allTrainings h1 {
+    color: #111;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.trainingBenefitsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    width: max-content;
+    padding: 20px;
+    margin: auto;
+}
+
+.trainingBenefitIcon {
+    background: #f1f1f1;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 60px;
+    margin: auto;
+}
+
+.trainingBenefit p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.allTrainings{
+    background: #f5f6fa;
+    padding: 50px 20px;
+}
+
+@media screen and (max-width : 1050px) {
+    .trainingBenefitsList {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+
+    .trainingPageHeroLeft,
+    .trainingPageHeroRight {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .trainingPageHero {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .trainingPageHeroLeft h1 {
+        font-size: 40px;
+    }
+
+}

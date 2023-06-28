@@ -69,7 +69,7 @@
     position: absolute;
     top: 45%;
     left: 0;
-    background: #ff243e;
+    background: black;
 }
 
 .grid-two-template-content h2:after,
@@ -77,7 +77,7 @@
     content: " ";
     height: 3px;
     width: 50px;
-    background: #ff243e;
+    background: black;
     display: block;
     position: absolute;
     top: 45%;
@@ -123,7 +123,7 @@
 }
 
 .grid-two-template-reverce-content span {
-    color: #ff243e;
+    color: black;
 }
 
 .grid-two-template-content a,
@@ -178,14 +178,14 @@
     position: absolute;
     top: 45%;
     left: 0;
-    background: #ff243e;
+    background: black;
 }
 
 .center-heading:after {
     content: " ";
     height: 3px;
     width: 50px;
-    background: #ff243e;
+    background: black;
     display: block;
     position: absolute;
     top: 45%;
@@ -203,7 +203,7 @@
 }
 
 .lets-discuss-area{
-    background: #ff243e;
+    background: black;
     padding: 0px 20px 50px;
     margin: 50px 0px;
 }
@@ -256,11 +256,6 @@
     font-weight: 400;
     text-align: center;
     padding-top: 50px;
-}
-
-.headerBgBlack{
-    background: #151414 !important;
-    height: 100px;
 }
 
 @media screen and (max-width : 500px) {

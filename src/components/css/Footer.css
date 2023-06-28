@@ -64,7 +64,7 @@
     text-align: center;
     width: 100%;
     margin: auto;
-    color: #ff243e;
+    color: black;
     font-size: 50px;
     background: white;
     padding: 20px 0 0;
@@ -78,14 +78,14 @@
     position: absolute;
     top: 50%;
     left: 0;
-    background: #ff243e;
+    background: black;
 }
 
 .footer-up-scroller h1:after {
     content: " ";
     height: 3px;
     width: calc(50% - 40px);
-    background: #ff243e;
+    background: black;
     display: block;
     position: absolute;
     top: 50%;
