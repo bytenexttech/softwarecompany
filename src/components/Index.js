@@ -19,8 +19,7 @@ function Index(props) {
             <div className='home-page-banner'>
                 <div className='home-page-banner-overlay'></div>
                 <div className='home-page-content'>
-                    <img src={logo} alt='' />
-                    <h1 style={{ fontSize: '38px' }}>Get connected & take control of your business Success.</h1>
+                    <h1 style={{ fontSize: '36px',fontWeight:'600' }}>Get connected & take control of your business Success.</h1>
                     <p style={{ fontSize: '16px' }}>Salesforce is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service, and IT teams work. </p><br />
                     <a href='/Contact' style={{ color: 'white', width: 'max-content', display: 'flex', margin: 'auto' }}><p style={{ textDecoration: 'none', color: 'white', background: 'black', padding: '15px 40px', width: 'max-content' }}>Contact Us</p></a>
                 </div>
