@@ -1,5 +1,6 @@
 .TermsAndConditionsPage,
-.Privacy-Policay-Page{
+.Privacy-Policay-Page,
+.Refund-Page{
     width: 100%;
     max-width: 900px;
     padding: 20px;
@@ -7,8 +8,13 @@
     background:#f5f5f5;
 }
 
+.Refund-Page{
+    text-align: center;
+}
+
 .TermsAndConditionsPage h2,
-.Privacy-Policay-Page h1{
+.Privacy-Policay-Page h1,
+.Refund-Page h2{
     text-align: center;
     font-weight: 600;
     padding: 20px;
@@ -16,7 +22,8 @@
 }
 
 .TermsAndConditionsPage h3,
-.Privacy-Policay-Page h2{
+.Privacy-Policay-Page h2,
+.Refund-Page h3{
     font-weight: 500;
     padding: 30px 0 5px 0;
     font-size: 22px;
@@ -35,11 +42,13 @@
 }
 
 .TermsAndConditionsPage a,
-.Privacy-Policay-Page a{
+.Privacy-Policay-Page a,
+.Refund-Page a{
     color: blue;
 }
 
 .TermsAndConditionsPage a:hover,
-.Privacy-Policay-Page a:hover{
+.Privacy-Policay-Page a:hover,
+.Refund-Page a:hover{
     text-decoration: underline;
 }
