@@ -19,12 +19,10 @@ function Footer(props) {
                         <h1>Quick Links</h1>
                         <a href='/'>Home</a>
                         <a href='/About'>About Us</a>
-                        {/* <a href='/'>Careers</a> */}
-                        <a href='/#Services'>Services</a>
-                        {/* <a href='/'>Integrations</a> */}
-                        {/* <a href='/'>Products</a> */}
                         <a href='/Contact'>Contact</a>
-                        {/* <a href='/'>Blogs</a> */}
+                        <a href='/Terms-and-Condition'>Terms and Conditions</a>
+                        <a href='/Privacy-Policy'>Privacy Policy</a>
+                        <a href='/Refund'>Refund Policy</a>
                     </div>
                     <div className='footer-services'>
                         <h1>Services</h1>
