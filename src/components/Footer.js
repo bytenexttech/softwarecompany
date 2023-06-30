@@ -44,7 +44,7 @@ function Footer(props) {
                             <a href='/'><AiOutlineInstagram /></a>
                             <a href='/'><AiFillLinkedin /></a>
                             <a href='/'><BsTwitter /></a>
-                            <a href='/'><AiFillFacebook /></a>
+                            {/* <a href='/'><AiFillFacebook /></a> */}
                         </div>
                     </div>
                 </div>
