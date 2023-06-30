@@ -95,7 +95,9 @@ function Training(props) {
                 <div className='trainingPageHeroLeft'>
                     <div className='trainingPageHeroLeftContent'>
                         <h1>Expert IT training when and where you need it</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto doloremque fugiat! Tempora, molestias minus mollitia optio laboriosam nulla, sed, numquam ad tempore.</p>
+                        <p>Expert IT training when and where you need it" is a comprehensive and flexible learning solution designed to provide individuals and organizations with specialized information technology (IT) training tailored to their specific needs. Whether you are an individual looking to enhance your IT skills or a company seeking to upskill your workforce, this training program offers the expertise and convenience required for success.
+
+This training solution is delivered by seasoned IT professionals and industry experts who possess extensive knowledge and experience in various IT domains. Their expertise ensures that learners receive up-to-date and relevant information, enabling them to stay ahead in the fast-paced world of technology.</p>
                         <br /><a href='#TrainingContent'><p>Learn More</p></a>
                     </div>
                 </div>
