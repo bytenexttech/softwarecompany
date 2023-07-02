@@ -218,7 +218,7 @@ function Training(props) {
                                 <p>UI Customization</p>
                             </div>
                         </div>
-                        <div className='courseEnroll' onClick={() => makePayment('Salesforce Admin')}>Enroll Now</div>
+                        {/* <div className='courseEnroll' onClick={() => makePayment('Salesforce Admin')}>Enroll Now</div> */}
                     </div>
 
                     <div className='singleTraining'>
@@ -297,7 +297,6 @@ function Training(props) {
                                 <p>Real world projects</p>
                             </div>
                         </div>
-                        <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div>
                         {/* <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div> */}
 
                     </div>
