@@ -120,13 +120,13 @@ function Training(props) {
                         <div className='trainingBenefitIcon' style={{ background: '#f4effa' }}>
                             <FaBalanceScale style={{ color: '#925eca' }} />
                         </div>
-                        <p>Balance learning with life</p>
+                        <p>Internship Offer Letter</p>
                     </div>
                     <div className='trainingBenefit'>
                         <div className='trainingBenefitIcon' style={{ background: '#fef4ea' }}>
                             <FiBook style={{ color: '#fa9231' }} />
                         </div>
-                        <p>Gain valuable knowledge</p>
+                        <p>Internship Certificate</p>
                     </div>
                     <div className='trainingBenefit'>
                         <div className='trainingBenefitIcon' style={{ background: '#ffeaee' }}>
