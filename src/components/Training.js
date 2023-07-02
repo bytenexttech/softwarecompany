@@ -297,7 +297,7 @@ function Training(props) {
                                 <p>Real world projects</p>
                             </div>
                         </div>
-                        <div className='courseEnroll' href="https://rzp.io/l/dkOOFchPue">Enroll Now</div>
+                        <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div>
                         {/* <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div> */}
 
                     </div>
