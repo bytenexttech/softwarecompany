@@ -40,7 +40,7 @@ function About(props) {
                     <div class="testimonial testimonial1">
                         <div className='testimonialsHeader'>
                             <div className='testimonialsImage'>
-                                <img src='https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80' alt='Testimonials' />
+                                <img src='https://raw.githubusercontent.com/bytenexttech/imgg/main/Charity%20H.png' alt='Testimonials' />
                             </div>
                         </div>
                         <div className='testimonialsBody'>
@@ -50,7 +50,7 @@ function About(props) {
                     <div class="testimonial testimonial2">
                         <div className='testimonialsHeader'>
                             <div className='testimonialsImage'>
-                                <img src='https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80' alt='Testimonials' />
+                                <img src='https://raw.githubusercontent.com/bytenexttech/imgg/main/WhatsApp%20Image%202023-06-29%20at%2020.19.46.jpg' alt='Testimonials' />
                             </div>
                         </div>
                         <div className='testimonialsBody'>
@@ -60,7 +60,7 @@ function About(props) {
                     <div class="testimonial testimonial3">
                         <div className='testimonialsHeader'>
                             <div className='testimonialsImage'>
-                                <img src='https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80' alt='Testimonials' />
+                                <img src='https://raw.githubusercontent.com/bytenexttech/imgg/main/WhatsApp%20Image%202023-06-30%20at%2015.35.27.jpg' alt='Testimonials' />
                             </div>
                         </div>
                         <div className='testimonialsBody'>
@@ -70,7 +70,7 @@ function About(props) {
                     <div class="testimonial testimonial4">
                         <div className='testimonialsHeader'>
                             <div className='testimonialsImage'>
-                                <img src='https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80' alt='Testimonials' />
+                                <img src='https://raw.githubusercontent.com/bytenexttech/imgg/main/WhatsApp%20Image%202023-06-30%20at%2015.50.08.jpg' alt='Testimonials' />
                             </div>
                         </div>
                         <div className='testimonialsBody'>
