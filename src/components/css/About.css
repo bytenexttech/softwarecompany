@@ -23,28 +23,14 @@ a {
     display: flex;
     gap: 10px;
     align-items: center;
-    width: 60%;
-}
-
-.aboutUsDetailsImage div {
     width: 50%;
-    height: max-content;
-    overflow: hidden;
 }
 
-.aboutUsDetailsImage img{
-    width: 100%;
-}
 
-.aboutUsDetailsImage img:nth-child(1){
-    height: 100%;
-    object-fit: cover;
-    object-position: left;
-}
 
 .aboutUsDetailsText {
     padding: 5%;
-    width: 40%;
+    width: 50%;
 }
 
 .aboutUsDetailsText h1 {
@@ -102,10 +88,6 @@ a {
     .aboutUsDetailsText {
         padding: 5%;
         width: 100%;
-    }
-
-    .image2{
-        height: 70vw !important;
     }
 }
 
