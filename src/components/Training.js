@@ -151,7 +151,7 @@ function Training(props) {
                         <p>Our Salesforce Admin course is designed to equip you with the essential skills and knowledge needed to excel as a Salesforce administrator. Whether you are a beginner or have some prior experience, this course will provide you with a comprehensive understanding of Salesforce's core functionalities, enabling you to navigate the platform confidently and efficiently.</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
-                            <p><b>Training Cost</b> : INR 2999/-</p>
+                            <p><b>Training Cost</b> : INR 4999/-</p>
                         </div>
                         <br />
                         <h3>Training includes</h3>
@@ -230,7 +230,7 @@ function Training(props) {
                         <p>Our Web Development course is designed to provide you with a solid foundation in web development principles and technologies. Whether you are a beginner or have some prior coding experience, this course will equip you with the essential skills needed to build dynamic and interactive websites.</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
-                            <p><b>Training Cost</b> : INR 2999/-</p>
+                            <p><b>Training Cost</b> : INR 4999/-</p>
                         </div>
                         <br />
                         <h3>Training includes</h3>
