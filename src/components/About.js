@@ -1,27 +1,18 @@
 import '../components/css/About.css'
 import Logo from '../assests/ByteNext Logo2.png';
-import Image from '../assests/salesforce.png';
+import Image from '../assests/Teamwork.jpg';
 import { FaPlayCircle } from "react-icons/fa";
 
 function About(props) {
     return (
         <div className="AboutPage">
-            {/* <div className='playVideoComponentOverlay'></div>
-            <div className='playVideoComponent'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XROICkmXT_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> */}
             <div className='aboutUsFormBanner'>
                 <p><span>Home &gt;</span> About Us</p>
             </div>
 
             <div className='aboutUsDetails'>
                 <div className='aboutUsDetailsImage'>
-                    <div style={{ background: '#ccc', padding: '50px' }}>
-                        <img src={Logo} alt='aboutUS' />
-                    </div>
-                    <div className='image2' style={{height: '90%'}}>
-                        <img src={Image} alt='aboutUS' />
-                    </div>
+                    <img src={Image} alt='' />
                 </div>
                 <div className='aboutUsDetailsText'>
                     <h1>Designing, Developing & Implementing Salesforce Solutions.</h1>
@@ -44,7 +35,7 @@ function About(props) {
                             </div>
                         </div>
                         <div className='testimonialsBody'>
-                            <p>Get your order delivered fast as soon as posible.Get your order delivered fast as soon as posible.</p>
+                            <p>I have been using <b>ByteNextTechnologies</b> Services for over a year now, and I couldn't be happier with their level of expertise and professionalism. Whenever I encounter an issue, their team is always prompt in responding and resolving the problem efficiently. They have a deep understanding of our business needs and provide tailored solutions that have greatly improved our productivity and security. I highly recommend <b>ByteNextTechnologies</b> to any organization in need of reliable and comprehensive development support.</p>
                         </div>
                     </div>
                     <div class="testimonial testimonial2">
@@ -54,7 +45,7 @@ function About(props) {
                             </div>
                         </div>
                         <div className='testimonialsBody'>
-                            <p>Get your order delivered fast as soon as posible.Get your order delivered fast as soon as posible.</p>
+                            <p>Our experience with <b>ByteNextTechnologies</b> has been nothing short of exceptional. Their team has been instrumental in streamlining our sales process and optimizing our customer relation. They proactively monitor our systems to identify and resolve potential issues before they become critical problems. Their expertise and dedication to customer service have been remarkable, and we trust them to handle our needs with the utmost professionalism. We are extremely satisfied with the level of support we receive from <b>ByteNextTechnologies</b>.</p>
                         </div>
                     </div>
                     <div class="testimonial testimonial3">
@@ -64,7 +55,7 @@ function About(props) {
                             </div>
                         </div>
                         <div className='testimonialsBody'>
-                            <p>Get your order delivered fast as soon as posible.Get your order delivered fast as soon as posible.</p>
+                            <p>After struggling with outdated systems for years, we decided to partner with <b>ByteNextTechnologies</b>, and it has been a game-changer for our organization. They have completely transformed our infrastructure, implementing modern technologies that have improved our efficiency and security. The team at <b>ByteNextTechnologies</b> is highly knowledgeable and responsive, always going above and beyond to ensure our systems are running smoothly. We are incredibly grateful for their expertise and would highly recommend their IT services to anyone looking for a reliable and innovative IT partner.</p>
                         </div>
                     </div>
                     <div class="testimonial testimonial4">
@@ -74,7 +65,7 @@ function About(props) {
                             </div>
                         </div>
                         <div className='testimonialsBody'>
-                            <p>Get your order delivered fast as soon as posible.Get your order delivered fast as soon as posible.</p>
+                            <p>I can confidently say that <b>ByteNextTechnologies</b> is the best Salesforce support provider we have ever worked with. Their team is composed of highly skilled professionals who are not only knowledgeable but also incredibly friendly and approachable. They have been instrumental in helping us navigate complex IT challenges and have provided us with tailored solutions that perfectly align with our business goals. <b>ByteNextTechnologies</b> has truly become an invaluable extension of our team, and we wholeheartedly endorse their services to any organization in need of top-notch Salesforce support.</p>
                         </div>
                     </div>
                 </div>
