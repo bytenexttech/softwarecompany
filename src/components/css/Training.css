@@ -97,6 +97,8 @@
 .allTrainings {
     background: #f5f6fa;
     padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .trainingsList {
