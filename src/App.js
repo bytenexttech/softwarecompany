@@ -9,6 +9,7 @@ import Training from "./components/Training.js";
 import Terms from "./components/Terms.js";
 import Refund from "./components/Refund.js";
 import Privacy from "./components/Privacy.js";
+import PageNotFound from "./components/PageNotFound.js";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Terms-and-Condition' element={<><Terms /></>}></Route>
           <Route path='/Privacy-Policy' element={<><Privacy /></>}></Route>
           <Route path='/Refund' element={<><Refund /></>}></Route>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />
