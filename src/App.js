@@ -9,7 +9,11 @@ import Training from "./components/Training.js";
 import Terms from "./components/Terms.js";
 import Refund from "./components/Refund.js";
 import Privacy from "./components/Privacy.js";
+<<<<<<< HEAD
 import Internship from "./components/Internship.js";
+=======
+import PageNotFound from "./components/PageNotFound.js";
+>>>>>>> 6006b67f525408ad29551bb7346b9433f604cb65
 
 function App() {
   return (
@@ -25,6 +29,7 @@ function App() {
           <Route path='/Terms-and-Condition' element={<><Terms /></>}></Route>
           <Route path='/Privacy-Policy' element={<><Privacy /></>}></Route>
           <Route path='/Refund' element={<><Refund /></>}></Route>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -301,6 +301,7 @@ function Training(props) {
 
                     </div>
                 </div>
+                <a style={{width: 'max-content',background: '#000',color: '#fff',padding: '15px 50px',textDecoration: 'none',margin: '50px auto 0'}} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeTBLX96ngaX1BQ34CyV7YevpWTnQMAb93p2jxN-b05y5RYxw/viewform?usp=sf_link">Apply Now !</a>
             </div>
         </div>
     );
