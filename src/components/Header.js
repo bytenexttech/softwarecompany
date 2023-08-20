@@ -52,6 +52,7 @@ function Header(props) {
                     <a href='/#Services' onClick={tabClicked}>Services</a>
                     <a href='/About'>About Us</a>
                     <a href='/Contact'>Contact Us</a>
+                    <a href='https://forms.gle/35TFeUCuxjDrBatA8' target="_blank" rel="noreferrer">Internship</a>
                     <a href='/Training'>Get Trained <span><FcReadingEbook /></span></a>
                 </div>
                 <div className="bars">

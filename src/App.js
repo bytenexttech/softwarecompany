@@ -9,6 +9,7 @@ import Training from "./components/Training.js";
 import Terms from "./components/Terms.js";
 import Refund from "./components/Refund.js";
 import Privacy from "./components/Privacy.js";
+import Internship from "./components/Internship.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' element={<><Index /></>}></Route>
           <Route path='/About' element={<><About /></>}></Route>
           <Route path='/Contact' element={<><Contact /></>}></Route>
+          <Route path='/Internship' element={<><Internship /></>}></Route>
           <Route path='/Training' element={<><Training /></>}></Route>
           <Route path='/Terms-and-Condition' element={<><Terms /></>}></Route>
           <Route path='/Privacy-Policy' element={<><Privacy /></>}></Route>
