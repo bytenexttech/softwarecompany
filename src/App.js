@@ -9,11 +9,8 @@ import Training from "./components/Training.js";
 import Terms from "./components/Terms.js";
 import Refund from "./components/Refund.js";
 import Privacy from "./components/Privacy.js";
-<<<<<<< HEAD
 import Internship from "./components/Internship.js";
-=======
 import PageNotFound from "./components/PageNotFound.js";
->>>>>>> 6006b67f525408ad29551bb7346b9433f604cb65
 
 function App() {
   return (
