@@ -43,7 +43,7 @@ function Footer(props) {
                         <div className='footer-social-links'>
                             <a href='https://www.instagram.com/bytenexttechnologies/'><AiOutlineInstagram /></a>
                             <a href='https://in.linkedin.com/company/bytenexttechnologies'><AiFillLinkedin /></a>
-                            <a href='/'><BsTwitter /></a>
+                            {/* <a href='/'><BsTwitter /></a> */}
                             {/* <a href='/'><AiFillFacebook /></a> */}
                         </div>
                     </div>
