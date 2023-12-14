@@ -246,7 +246,7 @@ function Training(props) {
                             <div className='include'>
                                 <RiPagesLine />
                                 <p>Hands-On Coding Assignments
-On Business Use Cases</p>
+                                    On Business Use Cases</p>
                             </div>
                             <div className='include'>
                                 <AiOutlineUser />
@@ -259,11 +259,11 @@ On Business Use Cases</p>
                         <div className='courseContent'>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Web Design Basic</p>
+                                <p>APEX Basics</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>HTML Basics</p>
+                                <p>APEX Oops Concepts</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
@@ -302,7 +302,7 @@ On Business Use Cases</p>
 
                     </div>
                 </div>
-                <a style={{width: 'max-content',background: '#000',color: '#fff',padding: '15px 50px',textDecoration: 'none',margin: '50px auto 0'}} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeTBLX96ngaX1BQ34CyV7YevpWTnQMAb93p2jxN-b05y5RYxw/viewform?usp=sf_link">Get Trained Now !</a>
+                <a style={{ width: 'max-content', background: '#000', color: '#fff', padding: '15px 50px', textDecoration: 'none', margin: '50px auto 0' }} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeTBLX96ngaX1BQ34CyV7YevpWTnQMAb93p2jxN-b05y5RYxw/viewform?usp=sf_link">Get Trained Now !</a>
             </div>
         </div>
     );
