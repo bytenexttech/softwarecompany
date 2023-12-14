@@ -241,15 +241,16 @@ function Training(props) {
                             </div>
                             <div className='include'>
                                 <RiPagesLine />
-                                <p>Real-Time Projects To Gain Industry Experience</p>
+                                <p>Real-Time Scenario-based Projects</p>
                             </div>
                             <div className='include'>
                                 <RiPagesLine />
-                                <p>Practical Web Designing Use Cases</p>
+                                <p>Hands-On Coding Assignments
+On Business Use Cases</p>
                             </div>
                             <div className='include'>
                                 <AiOutlineUser />
-                                <p>Delivered By Web Design Experts</p>
+                                <p>Personalized Mentorship</p>
                             </div>
                         </div>
 
