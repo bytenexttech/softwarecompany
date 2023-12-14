@@ -259,43 +259,43 @@ function Training(props) {
                         <div className='courseContent'>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>APEX Basics</p>
+                                <p>Apex Basics</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>APEX Oops Concepts</p>
+                                <p>Apex OOPS Concepts</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>CSS Basics</p>
+                                <p>Logic Control and Looping Statements</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Javascript</p>
+                                <p>SOSL & SOQL</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Bootstrap</p>
+                                <p>Apex Trigger</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>React JS</p>
+                                <p>Governor Limits & Batch Apex class</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Node Js</p>
+                                <p>API</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>E-commerce Website</p>
+                                <p>LWC (Lightning Web Component)</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Ecommerce Website Dashboard</p>
+                                <p>Visualforce</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Real world projects</p>
+                                <p>Deployment Process</p>
                             </div>
                         </div>
                         {/* <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div> */}
