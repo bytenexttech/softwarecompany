@@ -230,14 +230,14 @@ function Training(props) {
                         <p>Our Web Development course is designed to provide you with a solid foundation in web development principles and technologies. Whether you are a beginner or have some prior coding experience, this course will equip you with the essential skills needed to build dynamic and interactive websites.</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
-                            <p><b>Training Cost</b> : INR 20,000/-</p>
+                            <p><b>Training Cost</b> : INR 18,000/-</p>
                         </div>
                         <br />
                         <h3>Training includes</h3>
                         <div className='trainingIncludes'>
                             <div className='include'>
                                 <FiWatch />
-                                <p>45 Hours of Sessions</p>
+                                <p>70 Hours of Sessions</p>
                             </div>
                             <div className='include'>
                                 <RiPagesLine />
