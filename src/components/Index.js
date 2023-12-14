@@ -27,7 +27,7 @@ function Index(props) {
             <div className='grid-two-template'>
                 <div className='grid-two-template-area'>
                     <div className='grid-two-template-image'>
-                        <img src='../assests/pexels-cottonbro-studio-6803523.jpg' alt='' />
+                        <img src='https://github.com/bytenexttech/softwarecompany/blob/master/src/assests/pexels-cottonbro-studio-6803523.jpg?raw=true' alt='' />
                     </div>
                     <div className='grid-two-template-content'>
                         <h2>WHO WE ARE</h2>
