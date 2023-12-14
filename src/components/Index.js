@@ -27,7 +27,7 @@ function Index(props) {
             <div className='grid-two-template'>
                 <div className='grid-two-template-area'>
                     <div className='grid-two-template-image'>
-                        <img src='https://img.freepik.com/free-photo/coders-discussing-about-source-code-compiling-discovers-errors-asks-rest-team-explanations-front-multiple-screens-running-algorithms-software-developers-doing-teamwork_482257-41856.jpg?w=1380&t=st=1682181054~exp=1682181654~hmac=f0f73a68101093e47e586d6e72a234ce6d8d64afed0c060b947ddee5dc837c2a' alt='' />
+                        <img src='https://www.freepik.com/free-photo/coders-discussing-about-source-code-compiling-discovers-errors-asks-rest-team-explanations-front-multiple-screens-running-algorithms-software-developers-doing-teamwork_26367537.htm#query=coders-discussing-about&position=0&from_view=search&track=sph&uuid=d92f372e-dfa8-4a63-83e5-41f3e1e13ab6' alt='' />
                     </div>
                     <div className='grid-two-template-content'>
                         <h2>WHO WE ARE</h2>
