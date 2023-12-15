@@ -69,7 +69,8 @@ function Training(props) {
         const options = {
             key: "rzp_live_QcEe5nA76s6F0G",
             currency: "INR",
-            amount: 3999 * 100,
+            // amount: 12000 * 100,
+            amount: course === 'Salesforce Admin' ? 12000 * 100 : course === 'Salesforce QA' ? 25000 * 100 : 18000 * 100,
             name: "ByteNextTechnologies",
             description: "Course Enrollment",
 
@@ -218,9 +219,93 @@ function Training(props) {
                                 <p>UI Customization</p>
                             </div>
                         </div>
-                        {/* <div className='courseEnroll' onClick={() => makePayment('Salesforce Admin')}>Enroll Now</div> */}
-                        {/* <div className='courseEnroll' href="https://rzp.io/i/0pDablV0g" target="_blank">Enroll Now</div> */}
+                        <div className='courseEnroll' onClick={() => makePayment('Salesforce Admin')}>Enroll Now</div>
+                        {/* <div className='courseEnroll' href="https://rzp.io/i/0pDablV0g" target="_blank" rel="noreferrer">Enroll Now</div> */}
+
                     </div>
+
+                    <div className='singleTraining'>
+                        <h2>Salesforce Quality Assurance (QA)</h2>
+                        <br />
+                        <h3>Overview</h3>
+                        <p>Welcome to our Salesforce Admin course! In today's digital age, businesses are increasingly relying on Customer Relationship Management (CRM) systems to streamline their operations, manage customer relationships, and drive sales growth. Salesforce has emerged as a leading CRM platform, and there is a growing demand for skilled Salesforce administrators who can efficiently manage and customize this powerful tool.</p>
+                        <br />
+                        <p>Our Salesforce Admin course is designed to equip you with the essential skills and knowledge needed to excel as a Salesforce administrator. Whether you are a beginner or have some prior experience, this course will provide you with a comprehensive understanding of Salesforce's core functionalities, enabling you to navigate the platform confidently and efficiently.</p>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
+                            <p><b>Training Duration</b> : 2 Months</p>
+                            <p><b>Training Cost</b> : INR 25,000/-</p>
+                        </div>
+                        <br />
+                        <h3>Training includes</h3>
+                        <div className='trainingIncludes'>
+                            <div className='include'>
+                                <FiWatch />
+                                <p>45 Hours of Sessions</p>
+                            </div>
+                            <div className='include'>
+                                <RiPagesLine />
+                                <p>Real-Time Projects To Gain Industry Experience</p>
+                            </div>
+                            <div className='include'>
+                                <RiPagesLine />
+                                <p>Practical Assignments On Business Use Cases</p>
+                            </div>
+                            <div className='include'>
+                                <AiOutlineUser />
+                                <p>Delivered By Salesforce Experts</p>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3>Course Contents</h3>
+                        <div className='courseContent'>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Salesforce Basic</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Salesforce Platform & Environment</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Data Modeling</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Data Management</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Data Security</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Automations</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Reports & Dashboard</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>Salesforce Clouds</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>AppExchange</p>
+                            </div>
+                            <div className='include'>
+                                <AiFillCaretRight />
+                                <p>UI Customization</p>
+                            </div>
+                        </div>
+                        <div className='courseEnroll' onClick={() => makePayment('Salesforce QA')}>Enroll Now</div>
+                        {/* <div className='courseEnroll' href="https://rzp.io/i/0pDablV0g" target="_blank" rel="noreferrer">Enroll Now</div> */}
+
+                    </div>
+
+
 
                     <div className='singleTraining'>
                         <h2>Salesforce Development</h2>
@@ -299,11 +384,11 @@ function Training(props) {
                                 <p>Deployment Process</p>
                             </div>
                         </div>
-                        {/* <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div> */}
+                        <div className='courseEnroll' onClick={() => makePayment('Web Development')}>Enroll Now</div>
 
                     </div>
                 </div>
-                <a style={{ width: 'max-content', background: '#000', color: '#fff', padding: '15px 50px', textDecoration: 'none', margin: '50px auto 0' }} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeTBLX96ngaX1BQ34CyV7YevpWTnQMAb93p2jxN-b05y5RYxw/viewform?usp=sf_link">Get Trained Now !</a>
+                <a style={{ width: 'max-content', background: '#000', color: '#fff', padding: '15px 50px', textDecoration: 'none', margin: '50px auto 0' }} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeTBLX96ngaX1BQ34CyV7YevpWTnQMAb93p2jxN-b05y5RYxw/viewform?usp=sf_link">Request A Callback ?</a>
             </div>
         </div>
     );
