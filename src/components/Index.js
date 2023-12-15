@@ -47,7 +47,7 @@ function Index(props) {
                 <div className='home-services-list'>
                     <div className='home-service-single'>
                         <div className='home-service-image'>
-                            <img src={salesforce} alt='' />
+                            {/* <img src={salesforce} alt='' /> */}
                         </div>
                         <div className='home-service-content'>
                             <h2>Salesforce Development</h2>
@@ -56,7 +56,7 @@ function Index(props) {
                     </div>
                     <div className='home-service-single'>
                         <div className='home-service-image'>
-                            <img src={website} alt='' />
+                            {/* <img src={website} alt='' /> */}
                         </div>
                         <div className='home-service-content'>
                             <h2>Website Development</h2>
@@ -65,7 +65,7 @@ function Index(props) {
                     </div>
                     <div className='home-service-single'>
                         <div className='home-service-image'>
-                            <img src={application} alt='' />
+                            {/* <img src={application} alt='' /> */}
                         </div>
                         <div className='home-service-content'>
                             <h2>Application Development</h2>
