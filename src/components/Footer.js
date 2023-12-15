@@ -36,6 +36,7 @@ function Footer(props) {
                         <h1>Contact Us</h1>
                         <a href='tel:+91 8696561709' type='mobile'>+91 8696561709</a>
                         <a href='mailto:hello@bytenexttechnologies.in'>hello@bytenexttechnologies.in</a>
+                        <a href='mailto:training@bytenexttechnologies.in'>training@bytenexttechnologies.in</a>
                         <a href='/'>Sector 28, RanaSanga Marg Prata Nagar,<br /> Jaipur, 302022, INDIA</a>
                     </div>
                     <div className='footer-social'>
