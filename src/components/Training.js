@@ -219,6 +219,7 @@ function Training(props) {
                             </div>
                         </div>
                         {/* <div className='courseEnroll' onClick={() => makePayment('Salesforce Admin')}>Enroll Now</div> */}
+                        {/* <div className='courseEnroll' href="https://rzp.io/i/0pDablV0g" target="_blank">Enroll Now</div> */}
                     </div>
 
                     <div className='singleTraining'>
