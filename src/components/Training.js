@@ -70,7 +70,7 @@ function Training(props) {
             key: "rzp_live_QcEe5nA76s6F0G",
             currency: "INR",
             // amount: 12000 * 100,
-            amount: course === 'Salesforce Admin' ? 12000 * 100 : course === 'Salesforce QA' ? 25000 * 100 : 18000 * 100,
+            amount: course === 'Salesforce Admin' ? 1 * 100 : course === 'Salesforce QA' ? 2 * 100 : 3 * 100,
             name: "ByteNextTechnologies",
             description: "Course Enrollment",
 
@@ -151,7 +151,7 @@ function Training(props) {
                         <br />
                         <p>Our Salesforce Admin course is designed to equip you with the essential skills and knowledge needed to excel as a Salesforce administrator. Whether you are a beginner or have some prior experience, this course will provide you with a comprehensive understanding of Salesforce's core functionalities, enabling you to navigate the platform confidently and efficiently.</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
-                            <p><b>Training Duration</b> : 2 Months</p>
+                            <p><b>Training Duration</b> : 1 Months</p>
                             <p><b>Training Cost</b> : INR 12,000/-</p>
                         </div>
                         <br />
@@ -228,9 +228,9 @@ function Training(props) {
                         <h2>Salesforce QA</h2>
                         <br />
                         <h3>Overview</h3>
-                        <p>Welcome to our Salesforce Admin course! In today's digital age, businesses are increasingly relying on Customer Relationship Management (CRM) systems to streamline their operations, manage customer relationships, and drive sales growth. Salesforce has emerged as a leading CRM platform, and there is a growing demand for skilled Salesforce administrators who can efficiently manage and customize this powerful tool.</p>
+                        <p>Welcome to our Salesforce Quality Assurance course! Salesforce QA (Quality Assurance) training is designed to equip individuals with the skills and knowledge necessary to ensure the quality and reliability of Salesforce applications and solutions. Salesforce is a leading customer relationship management (CRM) platform used by organizations globally, and effective QA processes are essential to maintain the integrity of Salesforce implementations.</p>
                         <br />
-                        <p>Our Salesforce Admin course is designed to equip you with the essential skills and knowledge needed to excel as a Salesforce administrator. Whether you are a beginner or have some prior experience, this course will provide you with a comprehensive understanding of Salesforce's core functionalities, enabling you to navigate the platform confidently and efficiently.</p>
+                        <p> Salesforce QA training is essential for individuals aiming to specialize in testing within the Salesforce ecosystem. It equips them with the skills to ensure the quality, security, and performance of Salesforce applications, contributing to the success of Salesforce implementations in organizations.</p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
                             <p><b>Training Cost</b> : INR 25,000/-</p>
@@ -261,43 +261,43 @@ function Training(props) {
                         <div className='courseContent'>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Salesforce Basic</p>
+                                <p>Understanding Salesforce Ecosystem</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Salesforce Platform & Environment</p>
+                                <p>Testing Fundamentals</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Data Modeling</p>
+                                <p>Salesforce Testing Tools</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Data Management</p>
+                                <p>Salesforce Testing Types</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Data Security</p>
+                                <p>Salesforce Security and Compliance Testing</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Automations</p>
+                                <p>Performance Testing for Salesforce</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Reports & Dashboard</p>
+                                <p>Real-world Scenarios and Case Studies</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>Salesforce Clouds</p>
+                                <p>Collaboration with Development Teams</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>AppExchange</p>
+                                <p>Automation Script</p>
                             </div>
                             <div className='include'>
                                 <AiFillCaretRight />
-                                <p>UI Customization</p>
+                                <p>Project Hands-On </p>
                             </div>
                         </div>
                         <div className='courseEnroll' onClick={() => makePayment('Salesforce QA')}>Enroll Now</div>
