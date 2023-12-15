@@ -13,6 +13,7 @@ function Refund() {
             <p>If you have any questions concerning our return policy, please contact us at:</p>
 
             <a href='mailto:hello@bytenexttechnologies.in'>hello@bytenexttechnologies.in</a>
+            <a href='mailto:training@bytenexttechnologies.in'>training@bytenexttechnologies.in</a>
             <br /><br />
         </div>
     );
