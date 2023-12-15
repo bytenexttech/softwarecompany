@@ -70,7 +70,7 @@ function Training(props) {
             key: "rzp_live_QcEe5nA76s6F0G",
             currency: "INR",
             // amount: 12000 * 100,
-            amount: course === 'Salesforce Admin' ? 1 * 100 : course === 'Salesforce QA' ? 2 * 100 : 3 * 100,
+            amount: course === 'Salesforce Admin' ? 12000 * 100 : course === 'Salesforce QA' ? 25000 * 100 : 18000 * 100,
             name: "ByteNextTechnologies",
             description: "Course Enrollment",
 
