@@ -41,7 +41,7 @@ function Index(props) {
                     </div>
                 </div>
             </div>
-            {/* <div id='Services'></div>
+            <div id='Services'></div>
             <div className='home-services-section'>
                 <h1>OUR SERVICES</h1>
                 <div className='home-services-list'>
@@ -73,7 +73,7 @@ function Index(props) {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             {/* <div className='home-page-counters'>
                 https://techilaservices.com/wp-content/themes/newtechila/assets/img/banner/Techila_banner.jpg
