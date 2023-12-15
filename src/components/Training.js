@@ -231,7 +231,7 @@ function Training(props) {
                         <p>Welcome to our Salesforce Quality Assurance course! Salesforce QA (Quality Assurance) training is designed to equip individuals with the skills and knowledge necessary to ensure the quality and reliability of Salesforce applications and solutions. Salesforce is a leading customer relationship management (CRM) platform used by organizations globally, and effective QA processes are essential to maintain the integrity of Salesforce implementations.</p>
                         <br />
                         <p> Salesforce QA training is essential for individuals aiming to specialize in testing within the Salesforce ecosystem. It equips them with the skills to ensure the quality, security, and performance of Salesforce applications, contributing to the success of Salesforce implementations in organizations.</p>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
                             <p><b>Training Cost</b> : INR 25,000/-</p>
                         </div>
@@ -314,7 +314,7 @@ function Training(props) {
                         <p>Welcome to our Web Development course! In today's digital world, having a strong online presence is crucial for individuals and businesses alike. Web development is the backbone of the internet, encompassing the design, development, and maintenance of websites and web applications. With the rapid growth of e-commerce, online services, and digital marketing, there is an increasing demand for skilled web developers who can create engaging and functional web experiences.</p>
                         <br />
                         <p>Our Web Development course is designed to provide you with a solid foundation in web development principles and technologies. Whether you are a beginner or have some prior coding experience, this course will equip you with the essential skills needed to build dynamic and interactive websites.</p>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px', padding: '5vw 8vw 5vw 5vw' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px', padding: '5vw 8vw 5vw 5vw' }}>
                             <p><b>Training Duration</b> : 2 Months</p>
                             <p><b>Training Cost</b> : INR 18,000/-</p>
                         </div>
