@@ -225,7 +225,7 @@ function Training(props) {
                     </div>
 
                     <div className='singleTraining'>
-                        <h2>Salesforce Quality Assurance (QA)</h2>
+                        <h2>Salesforce QA</h2>
                         <br />
                         <h3>Overview</h3>
                         <p>Welcome to our Salesforce Admin course! In today's digital age, businesses are increasingly relying on Customer Relationship Management (CRM) systems to streamline their operations, manage customer relationships, and drive sales growth. Salesforce has emerged as a leading CRM platform, and there is a growing demand for skilled Salesforce administrators who can efficiently manage and customize this powerful tool.</p>
