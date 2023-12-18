@@ -55,6 +55,7 @@ function Header(props) {
                     {/* <a href='https://forms.gle/35TFeUCuxjDrBatA8' target="_blank" rel="noreferrer">Internship</a> */}
                     <a href='mailto:hello@bytenexttechnologies.in ' target="_blank" rel="noreferrer">Internship</a>
                     <a href='https://bytenexttechnologies.hashnode.dev/' target="_blank" rel="noreferrer">Blogs</a>
+                    {/* <a href='/Contact'>Who We Are</a> */}
                     <a href='/Training'>Get Trained <span><FcReadingEbook /></span></a>
                 </div>
                 <div className="bars">
