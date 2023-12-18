@@ -16,7 +16,7 @@ function About(props) {
                 </div>
                 <div className='aboutUsDetailsText'>
                     <h1>Designing, Developing & Implementing Salesforce Solutions.</h1>
-                    <p>Welcome to Byte Next Technology, we are passionate about Salesforce. With our deep expertise in consulting, development, and training, we help businesses leverage the full potential of the Salesforce platform. Our dedicated team is committed to delivering innovative solutions and empowering your success in the digital landscape.</p>
+                    <p>Welcome to ByteNext Technologies, we are passionate about Salesforce. With our deep expertise in <b>Consulting, Development, and Training</b>, we help businesses leverage the full potential of the Salesforce platform. Our dedicated team is committed to delivering innovative solutions and empowering your success in the digital landscape.</p>
                     <div className='aboutUsDetailsPlayVideo'>
                         <h1><FaPlayCircle /></h1>
                         <p>Play Video</p>
