@@ -67,7 +67,7 @@ function Training(props) {
         }
         //rzp_test_ZJGWzG6ZZxiNsR
         const options = {
-            key: "rzp_live_QcEe5nA76s6F0G",
+            key: "rzp_live_mPpVG6aARrn69E",
             currency: "INR",
             // amount: 12000 * 100,
             amount: course === 'Salesforce Admin' ? 12000 * 100 : course === 'Salesforce QA' ? 25000 * 100 : 18000 * 100,
